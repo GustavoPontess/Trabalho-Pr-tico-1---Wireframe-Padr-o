@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Games</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" media="screen"
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/styles/stylesheet.css">
+</head>
+
+<body>
+    <header class="bg-light">
+        <nav class="navbar navbar-expand-lg px-3">
+            <div class="container-fluid nopadding">
+                <a class="navbar-brand" id="logo" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-2 mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">destaques</a>
+                        </li>
+                        <li class="nav-item pt-2 barra">|</li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">lançamentos</a>
+                        </li>
+                        <li class="nav-item pt-2 barra">|</li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">plataformas</a>
+                        </li>
+                        <li class="nav-item pt-2 barra">|</li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">publishers</a>
+                        </li>
+                    </ul>
+                    <form class="input-group-append d-flex" role="search">
+                        <div class="input-group">
+                            <span class="input-group-text border border-opacity-75 color" id="basic-addon1"><i
+                                    class="bi bi-search"></i></span>
+                            <input type="text" class="form-control border border-start-0 border-end-0 border-opacity-75"
+                                placeholder="Pesquisar games" aria-label="Username" aria-describedby="basic-addon1">
+                            <span class="input-group-text border border-opacity-75 color" id="basic-addon1"><i
+                                    class="bi bi-x-circle"></i></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="bg-dark bg-opacity-10 px-3">
+        <header class="row py-4">
+            <div class="col-12 text-center">
+                <h1>Destaques</h1>
+            </div>
+        </header>
+        <section class="row mb-3">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner pb-5">
+                    <div class="carousel-item active">
+                        <div class="col-12 col-lg-6 col-sm-12 float-start" style="clear: both;">
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://www.youtube.com/embed/LoDB-VJ8OnE?controls=0"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class=" col-12 col-lg-6 col-sm-12 float-end ps-4" id="nopading">
+                            <article class="descricao">
+                                <h1>God of War</h1>
+                                <p> <b>Sobre:</b> God of War é um jogo eletrônico de ação-aventura desenvolvido pela
+                                    Santa
+                                    Monica
+                                    Studio e publicado pela Sony Interactive Entertainment. Foi lançado em 20 de
+                                    abril de
+                                    2018 para PlayStation 4 e em 14 de janeiro de 2022 para Microsoft Windows. É o
+                                    oitavo
+                                    título da série God of War e também o oitavo em ordem cronológica, sendo
+                                    sequência dos eventos
+                                    ocorridos em God of War III. Ao contrário dos jogos anteriores, que eram
+                                    vagamente baseados
+                                    na mitologia grega, este título é vagamente baseado na mitologia nórdica, com a
+                                    maior parte
+                                    do tempo situado na antiga Noruega no reino de Midgard. </p>
+                                <p><b>Publisher:</b> Eletronic Arts <b class="espaco">Lançamento:</b> May, 2020</p>
+                                <p><b>Plataformas:</b> Nitendo Switch, PlayStation 5, Xbox One, PC</p>
+                                <p><b>Gênero:</b> Action, Adventure, RPG</p>
+
+                                <p><b>Avaliação: </b><b class="text-danger">100</b></p>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-12 col-lg-6 col-sm-12 float-start" style="clear: both;">
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://www.youtube.com/embed/LoDB-VJ8OnE?controls=0"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class=" col-12 col-lg-6 col-sm-12 float-end ps-4" id="nopading">
+                            <article class="descricao">
+                                <h1>God of War</h1>
+                                <p> <b>Sobre:</b> God of War é um jogo eletrônico de ação-aventura desenvolvido pela
+                                    Santa
+                                    Monica
+                                    Studio e publicado pela Sony Interactive Entertainment. Foi lançado em 20 de
+                                    abril de
+                                    2018 para PlayStation 4 e em 14 de janeiro de 2022 para Microsoft Windows. É o
+                                    oitavo
+                                    título da série God of War e também o oitavo em ordem cronológica, sendo
+                                    sequência dos eventos
+                                    ocorridos em God of War III. Ao contrário dos jogos anteriores, que eram
+                                    vagamente baseados
+                                    na mitologia grega, este título é vagamente baseado na mitologia nórdica, com a
+                                    maior parte
+                                    do tempo situado na antiga Noruega no reino de Midgard. </p>
+                                <p><b>Publisher:</b> Eletronic Arts <b class="espaco">Lançamento:</b> May, 2020</p>
+                                <p><b>Plataformas:</b> Nitendo Switch, PlayStation 5, Xbox One, PC</p>
+                                <p><b>Gênero:</b> Action, Adventure, RPG</p>
+
+                                <p><b>Avaliação: </b><b class="text-danger">100</b></p>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-12 col-lg-6 col-sm-12 float-start" style="clear: both;">
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://www.youtube.com/embed/LoDB-VJ8OnE?controls=0"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class=" col-12 col-lg-6 col-sm-12 float-end ps-4" id="nopading">
+                            <article class="descricao">
+                                <h1>God of War</h1>
+                                <p> <b>Sobre:</b> God of War é um jogo eletrônico de ação-aventura desenvolvido pela
+                                    Santa
+                                    Monica
+                                    Studio e publicado pela Sony Interactive Entertainment. Foi lançado em 20 de
+                                    abril de
+                                    2018 para PlayStation 4 e em 14 de janeiro de 2022 para Microsoft Windows. É o
+                                    oitavo
+                                    título da série God of War e também o oitavo em ordem cronológica, sendo
+                                    sequência dos eventos
+                                    ocorridos em God of War III. Ao contrário dos jogos anteriores, que eram
+                                    vagamente baseados
+                                    na mitologia grega, este título é vagamente baseado na mitologia nórdica, com a
+                                    maior parte
+                                    do tempo situado na antiga Noruega no reino de Midgard. </p>
+                                <p><b>Publisher:</b> Eletronic Arts <b class="espaco">Lançamento:</b> May, 2020</p>
+                                <p><b>Plataformas:</b> Nitendo Switch, PlayStation 5, Xbox One, PC</p>
+                                <p><b>Gênero:</b> Action, Adventure, RPG</p>
+
+                                <p><b>Avaliação: </b><b class="text-danger">100</b></p>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-12 col-lg-6 col-sm-12 float-start" style="clear: both;">
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://www.youtube.com/embed/LoDB-VJ8OnE?controls=0"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class=" col-12 col-lg-6 col-sm-12 float-end ps-4" id="nopading">
+                            <article class="descricao">
+                                <h1>God of War</h1>
+                                <p> <b>Sobre:</b> God of War é um jogo eletrônico de ação-aventura desenvolvido pela
+                                    Santa
+                                    Monica
+                                    Studio e publicado pela Sony Interactive Entertainment. Foi lançado em 20 de
+                                    abril de
+                                    2018 para PlayStation 4 e em 14 de janeiro de 2022 para Microsoft Windows. É o
+                                    oitavo
+                                    título da série God of War e também o oitavo em ordem cronológica, sendo
+                                    sequência dos eventos
+                                    ocorridos em God of War III. Ao contrário dos jogos anteriores, que eram
+                                    vagamente baseados
+                                    na mitologia grega, este título é vagamente baseado na mitologia nórdica, com a
+                                    maior parte
+                                    do tempo situado na antiga Noruega no reino de Midgard. </p>
+                                <p><b>Publisher:</b> Eletronic Arts <b class="espaco">Lançamento:</b> May, 2020</p>
+                                <p><b>Plataformas:</b> Nitendo Switch, PlayStation 5, Xbox One, PC</p>
+                                <p><b>Gênero:</b> Action, Adventure, RPG</p>
+
+                                <p><b>Avaliação: </b><b class="text-danger">100</b></p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="container lancamentos pt-2">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid nopadding">
+                <a class="navbar-brand" href="#">
+                    <h2>Lançamentos</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarScroll">
+                    <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: px;">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Link
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Link
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="row small-video">
+            <div class="col-12 col-sm-3 col-md-4 col-lg-3">
+                <div class="card border border-0">
+                    <h5 class="card-title fw-bold">Game X<span class="float-end">92</span></h5>
+                    <div class="ratio" style="--bs-aspect-ratio: 50%;"><iframe
+                            src="https://www.youtube.com/embed/8X2kIfS6fb8?controls=0" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe></div>
+                    <div class="card-body">
+                        <p class="card-text">Mais detalhes ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-3 col-md-4 col-lg-3">
+                <div class="card border border-0">
+                    <h5 class="card-title fw-bold">Game X<span class="float-end">92</span></h5>
+                    <div class="ratio" style="--bs-aspect-ratio: 50%;"><iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/8X2kIfS6fb8?controls=0" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe></div>
+                    <div class="card-body">
+                        <p class="card-text">Mais detalhes ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-3 col-md-4 col-lg-3">
+                <div class="card border border-0">
+                    <h5 class="card-title fw-bold">Game X<span class="float-end">92</span></h5>
+                    <div class="ratio" style="--bs-aspect-ratio: 50%;"><iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/8X2kIfS6fb8?controls=0" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe></div>
+                    <div class="card-body">
+                        <p class="card-text">Mais detalhes ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-3 col-md-4 col-lg-3">
+                <div class="card border border-0">
+                    <h5 class="card-title fw-bold">Game X<span class="float-end">92</span></h5>
+                    <div class="ratio" style="--bs-aspect-ratio: 50%;"><iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/8X2kIfS6fb8?controls=0" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe></div>
+                    <div class="card-body">
+                        <p class="card-text">Mais detalhes ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-3 col-md-4 col-lg-3">
+                <div class="card border border-0">
+                    <h5 class="card-title fw-bold">Game X<span class="float-end">92</span></h5>
+                    <div class="ratio" style="--bs-aspect-ratio: 50%;"><iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/8X2kIfS6fb8?controls=0" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe></div>
+                    <div class="card-body">
+                        <p class="card-text">Mais detalhes ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-3 col-md-4 col-lg-3">
+                <div class="card border border-0">
+                    <h5 class="card-title fw-bold">Game X<span class="float-end">92</span></h5>
+                    <div class="ratio" style="--bs-aspect-ratio: 50%;"><iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/8X2kIfS6fb8?controls=0" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe></div>
+                    <div class="card-body">
+                        <p class="card-text">Mais detalhes ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-3 col-md-4 col-lg-3">
+                <div class="card border border-0">
+                    <h5 class="card-title fw-bold">Game X<span class="float-end">92</span></h5>
+                    <div class="ratio" style="--bs-aspect-ratio: 50%;"><iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/8X2kIfS6fb8?controls=0" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe></div>
+                    <div class="card-body">
+                        <p class="card-text">Mais detalhes ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-3 col-md-4 col-lg-3">
+                <div class="card border border-0">
+                    <h5 class="card-title fw-bold">Game X<span class="float-end">92</span></h5>
+                    <div class="ratio" style="--bs-aspect-ratio: 50%;"><iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/8X2kIfS6fb8?controls=0" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe></div>
+                    <div class="card-body">
+                        <p class="card-text">Mais detalhes ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-3 col-md-4 col-lg-3">
+                <div class="card border border-0">
+                    <h5 class="card-title fw-bold">Game X<span class="float-end">92</span></h5>
+                    <div class="ratio" style="--bs-aspect-ratio: 50%;"><iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/8X2kIfS6fb8?controls=0" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe></div>
+                    <div class="card-body">
+                        <p class="card-text">Mais detalhes ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-3 col-md-4 col-lg-3">
+                <div class="card border border-0">
+                    <h5 class="card-title fw-bold">Game X<span class="float-end">92</span></h5>
+                    <div class="ratio" style="--bs-aspect-ratio: 50%;"><iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/8X2kIfS6fb8?controls=0" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe></div>
+                    <div class="card-body">
+                        <p class="card-text">Mais detalhes ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-3 col-md-4 col-lg-3">
+                <div class="card border border-0">
+                    <h5 class="card-title fw-bold">Game X<span class="float-end">92</span></h5>
+                    <div class="ratio" style="--bs-aspect-ratio: 50%;"><iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/8X2kIfS6fb8?controls=0" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe></div>
+                    <div class="card-body">
+                        <p class="card-text">Mais detalhes ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-3 col-md-4 col-lg-3">
+                <div class="card border border-0">
+                    <h5 class="card-title fw-bold">Game X<span class="float-end">92</span></h5>
+                    <div class="ratio" style="--bs-aspect-ratio: 50%;"><iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/8X2kIfS6fb8?controls=0" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe></div>
+                    <div class="card-body">
+                        <p class="card-text">Mais detalhes ...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="float-end py-4">
+            <div class="input-group d-flex">
+                <div class="input-group">
+                    <span class="input-group-text bg-secondary border-0" id="basic-addon1"><i
+                            class="bi bi-plus"></i></span>
+                    <button type="button" class="btn btn-secondary">Carregar mais lançamentos</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container plataformas pt-2">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid nopadding">
+                <a class="navbar-brand" href="#">
+                    <h2>Plataformas</h2>
+                </a>
+            </div>
+        </nav>
+        <div class="row small-video">
+            <div class="col-12 col-sm-4 col-md-4">
+                <div class="card border border-0">
+                    <h5 class="card-title fw-bold">Plataforma A</h5>
+                    <img src="https://source.unsplash.com/random/300x150?sig=0" alt="Imagem de destaque">
+                    <div class="card-body">
+                        <p class="card-text">
+                            <b>Principais jogos</b>
+                        <ul class="lista">
+                            <li>jogo pipipip popopo</li>
+                            <li>jogo pipipip popopo</li>
+                            <li>jogo pipipip popopo</li>
+                        </ul>
+                        </p>
+                        <p class="card-text text-end">Mais detalhes ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4">
+                <div class="card border border-0">
+                    <h5 class="card-title fw-bold">Plataforma A</h5>
+                    <img src="https://source.unsplash.com/random/300x150?sig=1" alt="Imagem de destaque">
+                    <div class="card-body">
+                        <p class="card-text">
+                            <b>Principais jogos</b>
+                        <ul class="lista">
+                            <li>jogo pipipip popopo</li>
+                            <li>jogo pipipip popopo</li>
+                            <li>jogo pipipip popopo</li>
+                        </ul>
+                        </p>
+                        <p class="card-text text-end">Mais detalhes ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4">
+                <div class="card border border-0">
+                    <h5 class="card-title fw-bold">Plataforma A</h5>
+                    <img src="https://source.unsplash.com/random/300x150?sig=2" alt="Imagem de destaque">
+                    <div class="card-body">
+                        <p class="card-text">
+                            <b>Principais jogos</b>
+                        <ul class="lista">
+                            <li>jogo pipipip popopo</li>
+                            <li>jogo pipipip popopo</li>
+                            <li>jogo pipipip popopo</li>
+                        </ul>
+                        </p>
+                        <p class="card-text text-end">Mais detalhes ...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="float-end py-4">
+            <div class="input-group d-flex">
+                <div class="input-group">
+                    <span class="input-group-text bg-secondary border-0" id="basic-addon1"><i
+                            class="bi bi-plus"></i></span>
+                    <button type="button" class="btn btn-secondary">Carregar mais plataformas</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="publishers bg-dark bg-opacity-10 pb-5 pt-2">
+        <div class="container pb-5">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid nopadding">
+                    <a class="navbar-brand" href="#">
+                        <h2>Publishers</h2>
+                    </a>
+                </div>
+            </nav>
+            <div class="row small-video">
+                <div class="col-12 col-sm-4 col-md-4">
+                    <div class="card border border-0">
+                        <h5 class="card-title fw-bold">Plataforma A</h5>
+                        <img src="https://source.unsplash.com/random/300x150?sig=0" alt="Imagem de destaque">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <b>Principais jogos</b>
+                            <ul class="lista">
+                                <li>jogo pipipip popopo</li>
+                                <li>jogo pipipip popopo</li>
+                                <li>jogo pipipip popopo</li>
+                            </ul>
+                            </p>
+                            <p class="card-text text-end">Mais detalhes ...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-4">
+                    <div class="card border border-0">
+                        <h5 class="card-title fw-bold">Plataforma A</h5>
+                        <img src="https://source.unsplash.com/random/300x150?sig=1" alt="Imagem de destaque">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <b>Principais jogos</b>
+                            <ul class="lista">
+                                <li>jogo pipipip popopo</li>
+                                <li>jogo pipipip popopo</li>
+                                <li>jogo pipipip popopo</li>
+                            </ul>
+                            </p>
+                            <p class="card-text text-end">Mais detalhes ...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-4">
+                    <div class="card border border-0">
+                        <h5 class="card-title fw-bold">Plataforma A</h5>
+                        <img src="https://source.unsplash.com/random/300x150?sig=2" alt="Imagem de destaque">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <b>Principais jogos</b>
+                            <ul class="lista">
+                                <li>jogo pipipip popopo</li>
+                                <li>jogo pipipip popopo</li>
+                                <li>jogo pipipip popopo</li>
+                            </ul>
+                            </p>
+                            <p class="card-text text-end">Mais detalhes ...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="float-end py-4">
+                <div class="input-group d-flex">
+                    <div class="input-group">
+                        <span class="input-group-text bg-secondary border-0" id="basic-addon1"><i
+                                class="bi bi-plus"></i></span>
+                        <button type="button" class="btn btn-secondary">Carregar mais publishers</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contatos container py-4">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid nopadding">
+                        <a class="navbar-brand" href="#">
+                            <h2>Sobre</h2>
+                        </a>
+                    </div>
+                </nav>
+                <article>
+                    Lorem ipsum himenaeos nec eu habitasse amet quis fames inceptos adipiscing, posuere taciti
+                    consectetur id primis mollis mauris bibendum dictumst, rutrum commodo at aptent sagittis nisl mi
+                    malesuada sodales. viverra sapien massa congue pharetra, tristique ligula vehicula. eros laoreet
+                    scelerisque vehicula semper consectetur maecenas ipsum massa, egestas elementum pharetra ipsum
+                    tincidunt sodales sapien, odio porttitor molestie porta ultrices sit cubilia. augue euismod luctus
+                    pharetra nunc sapien curabitur porta tristique tempus ullamcorper platea sem, pellentesque neque per
+                    dictum sodales ultricies aptent sem lorem sem erat, bibendum curae eros cubilia egestas ut sed
+                    inceptos vitae ultricies adipiscing.
+                </article>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                <section>
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid nopadding">
+                            <a class="navbar-brand" href="#">
+                                <h2>Editorial</h2>
+                            </a>
+                        </div>
+                    </nav>
+                    <div>
+                        <ul class="editores">
+                            <li><b class="me-1">Redação:</b>Gustavo Nunes Pontes</li>
+                            <li><b class="me-1">Pesquisa:</b>Gustavo Nunes Pontes</li>
+                            <li><b class="me-1">Gerente Geral:</b>Gustavo Nunes Pontes</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="redsocial">
+                    <nav class="navbar navbar-expand-lg" style="padding-bottom: 0;">
+                        <div class="container-fluid nopadding">
+                            <a class="navbar-brand" href="#">
+                                <h4 class="margin">redes sociais:</h4>
+                            </a>
+                        </div>
+                    </nav>
+                    <a href="#" class="text-decoration-none text-black"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-decoration-none text-black"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="text-decoration-none text-black"><i class="bi bi-instagram"></i></a>
+                </section>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark bg-opacity-10 py-4">
+        <div class="container" style="--bs-gap: 5rem;">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-10 col-xl-10">
+                    <h5 class="copyright">Copyright 2022 - Disciplina de Desenvolvimento de
+                        Interfaces Web - <b>ICEI PUC Minas</b></h5>
+                </div>
+                <div class="col-12 col-md-12 col-lg-2 col-xl-2 text-end"><a class="navbar-brand" id="logo"
+                        href="#">Navbar</a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
+</body>
+</html>
