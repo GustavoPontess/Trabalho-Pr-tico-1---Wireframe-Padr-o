@@ -1,6 +1,11 @@
 #logo {
-    border: solid 1px black;
-    padding: 3px 12px;
+    max-width: 50px;
+    width: 100% ;
+}
+
+img {
+    max-width: 150px;
+    width: 100% ;
 }
 
 .card-body,
@@ -155,10 +160,11 @@ input {
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
 
-    .descricao>p{
+    .descricao>p {
         margin-bottom: 8px;
     }
-    .descricao{
+
+    .descricao {
         font-size: 13px;
     }
 }
