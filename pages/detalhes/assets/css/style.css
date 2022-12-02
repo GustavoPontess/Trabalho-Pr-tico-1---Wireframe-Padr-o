@@ -1,0 +1,41 @@
+.formimg {
+    width: 100%;
+    height: 90px;
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.img-detalhes {
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.clip{
+    display: none;
+}
+
+/* `xs` returns only a ruleset and no media query */
+/* ... { ... } */
+
+@media (max-width: 375px) {
+    .font{
+        font-size: 12px !important;
+    }
+}
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .font{
+        font-size: 15px;
+    }
+    .clips{
+        display: none;
+    }
+    .clip{
+        display: block;
+    }
+}
