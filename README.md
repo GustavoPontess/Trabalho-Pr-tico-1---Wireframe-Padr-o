@@ -14,8 +14,11 @@ O trabalho consiste em criar uma página que siga os conceitos abordados em aula
 ## 📂 Estrutura do Projeto
 ```plaintext
 - assets/           # Contém imagens, estilos e outros arquivos estáticos
-- src/              # Contém os arquivos HTML da página
-- README.md         # Documentação do projeto
+  ├── img/         # Imagens do projeto
+  ├── styles/      # Arquivos CSS
+- public/          # Contém os arquivos HTML da página
+  ├── index.html   # Página principal
+- README.md        # Documentação do projeto
 ```
 
 ## 🔧 Tecnologias Utilizadas
@@ -34,7 +37,7 @@ O trabalho consiste em criar uma página que siga os conceitos abordados em aula
    ```sh
    cd repositorio-pagina-estatica
    ```
-3. **Abra o arquivo `index.html` em seu navegador preferido.**
+3. **Abra o arquivo `public/index.html` em seu navegador preferido.**
 
 ## 📌 Orientações Gerais
 Os alunos devem seguir as seguinte regras:
@@ -76,37 +79,11 @@ Caso algum aluno não fique satisfeito com a nota, poderá preencher um **formul
 
 ### Tabela de Avaliação
 
-<table>
-    <tr>
-        <td colspan="5">Critérios de Avaliação</td>
-    </tr>
-    <tr>
-        <td>Critérios</td>
-        <td colspan="3">Avaliações</td>
-        <td>Pts</td>
-    </tr>
-    <tr>
-        <td>Conformidade com o Wireframe</td>
-        <td>3 pts - Seguiu corretamente o wireframe, realizando melhorias.</td>
-        <td>1,5 pts - Seguiu parcialmente o wireframe.</td>
-        <td>0 pts - Não seguiu o wireframe.</td>
-        <td>3 pts</td>
-    </tr>
-    <tr>
-        <td>Conteúdo</td>
-        <td>2 pts - Utilizou conteúdos reais.</td>
-        <td>1 pts - Utilizou conteúdos fictícios (placeholder).</td>
-        <td>0 pts - Ausência de conteúdos nos componentes.</td>
-        <td>2 pts</td>
-    </tr>
-    <tr>
-        <td>Responsividade do Site</td>
-        <td>5 pts - Responsividade funcional.</td>
-        <td>2,5 pts - Responsividade parcial.</td>
-        <td>0 pts - O site não apresenta responsividade.</td>
-        <td>5 pts</td>
-    </tr>
-</table>
+| Critérios                     | 3 pts | 1,5 pts | 0 pts |
+|--------------------------------|-------|---------|-------|
+| **Conformidade com Wireframe** | ✅ Seguiu corretamente com melhorias estruturais | ⚠️ Seguiu parcialmente | ❌ Não seguiu |
+| **Conteúdo**                   | ✅ Utilizou conteúdos reais | ⚠️ Utilizou conteúdos fictícios | ❌ Ausência de conteúdos |
+| **Responsividade do Site**      | ✅ Adaptação total para mobile | ⚠️ Responsividade parcial | ❌ Não apresenta responsividade |
 
 Seja honesto na avaliação, pois sua nota será a média das avaliações de 3 colegas. O sistema calcula desvio padrão para evitar distorções excessivas.
 
