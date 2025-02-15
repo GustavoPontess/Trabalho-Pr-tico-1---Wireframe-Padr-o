@@ -42,18 +42,18 @@ O trabalho consiste em criar uma página que siga os conceitos abordados em aula
 ## 📌 Orientações Gerais
 Os alunos devem seguir as seguinte regras:
 - Este trabalho é **INDIVIDUAL** e não pode ser feito em grupos.
-- O site deve seguir o [layout (Wireframe) disponibilizado](assets/img/Wireframe%20-%20Portal%20de%20Games.png), mas pode conter incrementos.
+- O site deve seguir o [layout (Wireframe) disponibilizado](assets/img/wireframe-portal-de-games.png), mas pode conter incrementos.
 - Sugere-se que você crie um site com games gerais ou com algum tema de interesse do aluno.
 - Você deve utilizar imagens reais que simulem games que de fato existem.
 - O site a ser criado nesse trabalho é totalmente estático e você deve preencher cada seção com exemplos reais para marcar os locais onde virão os conteúdos reais.
 - O site deve ser responsivo e se adequar corretamente às telas de diferentes dispositivos, tanto desktops quanto tablets e smartphones.
 - Cada aluno deve pensar o formato da versão mobile.
 
-![Trabalho Prático 1-1](assets/img/Trabalho%20Pr%C3%A1tico%201-1.png)
+![Trabalho Prático 1-1](assets/img/trabalho-pratico-1-1.png)
 
-Para o trabalho, vamos utilizar um [arquivo de wireframes que está disponível em alta resolução](assets/img/Wireframe%20-%20Portal%20de%20Games.png).
+Para o trabalho, vamos utilizar um [arquivo de wireframes que está disponível em alta resolução](assets/img/wireframe-portal-de-games.png).
 
-![Trabalho Prático 1-2](assets/img/Trabalho%20Pr%C3%A1tico%201-2.png)
+![Trabalho Prático 1-2](assets/img/trabalho-pratico-1-2.png)
 
 ## 📌 Processo Avaliativo
 A avaliação será conduzida com a **participação dos próprios alunos**. Cada aluno deverá avaliar **3 projetos** de outros colegas e atribuir pontos. O aluno receberá **1 ponto adicional** pela participação no processo. Após a revisão dos alunos, os professores consolidam as notas dos alunos usando a média das notas recebidas.
